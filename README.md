@@ -147,55 +147,32 @@ Os arquivos serão gerados na pasta dist/.
 
 Página Inicial (Desktop)
 
-![image](https://github.com/user-attachments/assets/8a361e79-62e1-4d38-b80d-e625632667f6)
-
-![image](https://github.com/user-attachments/assets/265b3143-9ce0-4012-acb2-2ae86626329d)
-
-![image](https://github.com/user-attachments/assets/f4e1aab9-a4fb-4aeb-abb5-ddf7b11c5e82)
+![image](https://github.com/user-attachments/assets/a89f637b-d4ee-4023-8d80-168b616a034a)
 
 Página Inicial (Mobile - Menu Fechado)
 
-![image](https://github.com/user-attachments/assets/b2c33ace-8d91-4e20-84d9-468ce82bdf60)
-
-![image](https://github.com/user-attachments/assets/96339eb6-f61c-42fc-9629-784e9f35e6ac)
+![image](https://github.com/user-attachments/assets/7960d663-a5e7-4a2c-905b-8da72f152784)
 
 Página Inicial (Mobile - Menu Aberto)
 
-![image](https://github.com/user-attachments/assets/092f755d-f4b4-498e-a7b1-371bd32aa42c)
-
-![image](https://github.com/user-attachments/assets/736eedfb-9fe4-4372-ba08-1d7baf710d94)
-
+![image](https://github.com/user-attachments/assets/88473dbd-bc0d-40f7-864a-6c84db8ec9bf)
 
 Página de Detalhes do Produto
 
-![image](https://github.com/user-attachments/assets/1e00e7ca-0375-4675-8078-38e787df6125)
-
-![image](https://github.com/user-attachments/assets/2c5f49af-139c-4381-bff6-2d5263acc89d)
-
-![image](https://github.com/user-attachments/assets/8f9915f1-0aa5-4693-8913-d79e7ed024ec)
+![image](https://github.com/user-attachments/assets/26972b43-7dbf-4668-a8f2-5805c2902a6e)
 
 Página do Carrinho Vazio
 
-![image](https://github.com/user-attachments/assets/c009f704-82aa-4b72-aafc-8fa5a7a54d96)
-
-![image](https://github.com/user-attachments/assets/b9e3b7a1-0477-40f3-b92c-013cddcdf596)
+![image](https://github.com/user-attachments/assets/5904c523-4471-4f1a-9951-634fab9d1e88)
 
 Página do Carrinho com Itens
 
-![image](https://github.com/user-attachments/assets/ba745c57-24da-4ab9-a705-b41cd0a2ca2c)
-
-![image](https://github.com/user-attachments/assets/86105241-73db-4251-a2b3-d35706acdbe2)
-
-![image](https://github.com/user-attachments/assets/6c9b8ddb-363e-4d35-9efb-7c2001ee8c0c)
+![image](https://github.com/user-attachments/assets/23cd60ea-2138-4140-a1b4-01a2bbd28267)
 
 Página do Carrinho Compra Finalizada
 
-![image](https://github.com/user-attachments/assets/22e92aad-3676-4925-bb14-419b5c3821ce)
-
-![image](https://github.com/user-attachments/assets/c7a878f7-5435-4d9a-8356-8d468750ed3b)
+![image](https://github.com/user-attachments/assets/10fd48fb-7109-45a6-b9bc-427807b8644f)
 
 Página de Resultados da Pesquisa
 
-![image](https://github.com/user-attachments/assets/6e46eec6-881a-45cc-ab82-06ca42d6e713)
-
-![image](https://github.com/user-attachments/assets/2f12d443-5679-44de-86b6-6e44aa79d342)
+![image](https://github.com/user-attachments/assets/5f5074f7-a001-4175-a938-b972c44d7e0f)

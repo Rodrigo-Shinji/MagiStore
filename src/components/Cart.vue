@@ -54,7 +54,7 @@
           <img
             :src="item.thumbnail"
             :alt="item.title"
-            class="w-24 h-24 object-cover rounded-lg mr-4 mb-4 md:mb-0 shadow-md"
+            class="w-24 h-24 object-cover rounded-lg mr-4 mb-4 md:mb-0 shadow-md bg-white"
           />
           <span class="text-white text-lg font-semibold">{{ item.title }}</span>
         </div>

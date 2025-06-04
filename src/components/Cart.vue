@@ -1,6 +1,11 @@
 <template>
   <div class="container mx-auto px-4 py-8 pt-36 min-h-screen">
-    <h1 class="text-4xl font-bold text-[#FFD700] mb-8 text-center">Carrinho</h1>
+    <h1 class="text-4xl font-bold text-[#FFD700] mb-8 text-center">
+      <span
+        class="bg-[#5D3F8D] text-[#FFD700] px-3 py-1 rounded-lg text-shadow-md capitalize"
+        >Carrinho</span
+      >
+    </h1>
 
     <div
       v-if="cartItems.length === 0 && !purchaseCompleted"

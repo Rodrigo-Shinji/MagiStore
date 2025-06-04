@@ -24,7 +24,7 @@
         <p class="text-white leading-relaxed mb-4">{{ product.description }}</p>
 
         <p class="text-white mb-2">
-          <strong class="text-[#FFD700]">Categoria:</strong>
+          <strong class="text-[#FFD700]">Categoria: </strong>
           <span class="capitalize">{{ product.category }}</span>
         </p>
         <p class="text-white mb-2">

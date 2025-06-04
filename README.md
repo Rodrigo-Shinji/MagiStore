@@ -3,6 +3,8 @@
 Bem-vindo à **MagiStore**, sua loja mística online para encontrar os mais raros e poderosos produtos!  
 Este é um projeto de e-commerce construído com **Vue.js**, **Tailwind CSS** e **Vue Router**, simulando uma experiência completa de navegação, exibição de produtos, carrinho de compras e funcionalidades de pesquisa e filtragem.
 
+Vídeo Apresentação: https://www.youtube.com/watch?v=4EsnAPLuRnc
+
 ---
 
 ## 🧾 Visão Geral do Projeto

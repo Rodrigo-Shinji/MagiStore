@@ -11,19 +11,10 @@
         class="hidden md:flex items-center flex-grow max-w-xl mx-auto relative"
       >
         <div
-          class="flex w-full bg-[#4C3073] rounded-full overflow-hidden shadow-inner"
+          class="flex w-full bg-[#4C3073] rounded-full overflow-hidden shadow-inner relative"
         >
-          <input
-            type="search"
-            placeholder="Buscar..."
-            class="flex-grow px-4 py-2 bg-transparent text-white placeholder-gray-300 focus:outline-none custom-search-input"
-            v-model="searchQuery"
-            @keyup.enter="handleSearch"
-          />
-
-          <button
-            @click="handleSearch"
-            class="bg-[#FFD700] px-4 py-2 hover:bg-[#E6A800] transition-colors duration-200"
+          <div
+            class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +22,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="size-6"
+              class="w-5 h-5 text-gray-400"
             >
               <path
                 stroke-linecap="round"
@@ -39,7 +30,14 @@
                 d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
               />
             </svg>
-          </button>
+          </div>
+          <input
+            type="search"
+            placeholder="Buscar Produtos..."
+            class="flex-grow px-4 py-2 pl-10 bg-transparent text-white placeholder-gray-300 focus:outline-none custom-search-input"
+            v-model="searchQuery"
+            @keyup.enter="handleSearch"
+          />
         </div>
       </div>
 
@@ -225,18 +223,10 @@
         }"
       >
         <div
-          class="flex w-full bg-[#4C3073] rounded-full overflow-hidden shadow-inner"
+          class="flex w-full bg-[#4C3073] rounded-full overflow-hidden shadow-inner relative"
         >
-          <input
-            type="search"
-            placeholder="Buscar..."
-            class="flex-grow px-4 py-2 bg-transparent text-white placeholder-gray-300 focus:outline-none custom-search-input"
-            v-model="searchQuery"
-            @keyup.enter="handleSearch"
-          />
-          <button
-            @click="handleSearch"
-            class="bg-[#FFD700] px-4 py-2 hover:bg-[#E6A800] transition-colors duration-200"
+          <div
+            class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -244,7 +234,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="size-6"
+              class="w-5 h-5 text-gray-400"
             >
               <path
                 stroke-linecap="round"
@@ -252,7 +242,14 @@
                 d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
               />
             </svg>
-          </button>
+          </div>
+          <input
+            type="search"
+            placeholder="Buscar Produtos..."
+            class="flex-grow px-4 py-2 pl-10 bg-transparent text-white placeholder-gray-300 focus:outline-none custom-search-input"
+            v-model="searchQuery"
+            @keyup.enter="handleSearch"
+          />
         </div>
       </div>
     </div>
@@ -261,8 +258,8 @@
 
 <script setup>
 import logoImg from "../assets/imgs/logo.png";
-import { ref, onMounted, watch, inject } from "vue";
-import { useRouter, useRoute } from "vue-router";
+import {ref, onMounted, watch, inject} from "vue";
+import {useRouter, useRoute} from "vue-router";
 import axios from "axios";
 
 const router = useRouter();
@@ -327,14 +324,14 @@ const selectCategory = (category) => {
   isDropdownOpen.value = false;
   isMobileDropdownOpen.value = false;
   closeMobileMenu();
-  router.push({ name: "category-products", params: { categoryName: category } });
+  router.push({name: "category-products", params: {categoryName: category}});
 };
 
 const handleSearch = () => {
   const trimmedQuery = searchQuery.value.trim();
   if (trimmedQuery) {
     clearTimeout(searchTimeout);
-    router.push({ name: "search-results", query: { q: trimmedQuery } });
+    router.push({name: "search-results", query: {q: trimmedQuery}});
     closeMobileMenu();
     isMobileSearchOpen.value = false;
   }
@@ -354,7 +351,7 @@ watch(searchQuery, (newQuery) => {
       currentRoute.name !== "search-results" ||
       currentRoute.query.q !== trimmedQuery
     ) {
-      router.push({ name: "search-results", query: { q: trimmedQuery } });
+      router.push({name: "search-results", query: {q: trimmedQuery}});
       closeMobileMenu();
       isMobileSearchOpen.value = false;
     }

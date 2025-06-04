@@ -40,28 +40,31 @@
 
     <div v-else class="bg-[#3C2763] rounded-lg shadow-xl p-8">
       <div
-        class="hidden md:grid grid-cols-5 gap-4 pb-4 border-b border-gray-600 font-bold text-[#FFD700] text-lg mb-4"
+        class="hidden md:grid grid-cols-6 gap-4 pb-4 border-b border-gray-600 font-bold text-[#FFD700] text-lg mb-4"
       >
-        <div class="col-span-2">Produto</div>
+        <div class="col-span-1">Produto</div>
+        <div class="col-span-1">Nome</div>
         <div class="text-center">Preço</div>
         <div class="text-center">Quantidade</div>
         <div class="text-right">Subtotal</div>
+        <div class="text-right">Ações</div>
       </div>
 
       <div
         v-for="item in cartItems"
         :key="item.id"
-        class="grid grid-cols-1 md:grid-cols-5 gap-4 py-4 border-b border-gray-700 last:border-b-0 items-center"
+        class="grid grid-cols-1 md:grid-cols-6 gap-4 py-4 border-b border-gray-700 last:border-b-0 items-center"
       >
-        <div
-          class="col-span-2 flex items-center flex-col md:flex-row text-center md:text-left"
-        >
+        <div class="col-span-1 flex items-center justify-center md:justify-start">
           <img
             :src="item.thumbnail"
-            :alt="item.title"
-            class="w-24 h-24 object-cover rounded-lg mr-4 mb-4 md:mb-0 shadow-md bg-white"
+            :alt="item.name"
+            class="w-24 h-24 object-cover rounded-lg shadow-md bg-white flex-shrink-0"
           />
-          <span class="text-white text-lg font-semibold">{{ item.title }}</span>
+        </div>
+
+        <div class="col-span-1 text-center md:text-left">
+          <span class="text-white text-lg font-semibold">{{ item.name }}</span>
         </div>
 
         <div class="text-center text-white text-lg">
@@ -87,11 +90,12 @@
         </div>
 
         <div
-          class="flex items-center justify-end text-white text-lg font-semibold gap-4"
+          class="flex items-center justify-center md:justify-end text-white text-lg font-semibold"
         >
-          <span class="mr-4"
-            >$ {{ (item.price * item.quantity).toFixed(2) }}</span
-          >
+          <span>$ {{ (item.price * item.quantity).toFixed(2) }}</span>
+        </div>
+
+        <div class="flex items-center justify-center md:justify-end">
           <button
             @click="removeFromCart(item.id)"
             class="text-red-400 hover:text-red-600 transition-colors duration-200"

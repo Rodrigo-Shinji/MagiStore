@@ -165,16 +165,16 @@ Página de Detalhes do Produto
 
 Página do Carrinho Vazio
 
-![image](https://github.com/user-attachments/assets/5904c523-4471-4f1a-9951-634fab9d1e88)
+![image](https://github.com/user-attachments/assets/fc465551-c596-44dd-ac52-c6ebf1d37eec)
 
 Página do Carrinho com Itens
 
-![image](https://github.com/user-attachments/assets/23cd60ea-2138-4140-a1b4-01a2bbd28267)
+![image](https://github.com/user-attachments/assets/efdd5555-4212-4406-811c-240cfad62d65)
 
 Página do Carrinho Compra Finalizada
 
-![image](https://github.com/user-attachments/assets/10fd48fb-7109-45a6-b9bc-427807b8644f)
+![image](https://github.com/user-attachments/assets/e223884f-193e-4466-9e06-3d5d4e89cdbc)
 
 Página de Resultados da Pesquisa
 
-![image](https://github.com/user-attachments/assets/5f5074f7-a001-4175-a938-b972c44d7e0f)
+![image](https://github.com/user-attachments/assets/b574efc3-865f-48d1-90b7-1fc82b94631d)

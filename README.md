@@ -149,7 +149,7 @@ Os arquivos serão gerados na pasta dist/.
 
 Página Inicial (Desktop)
 
-![image](https://github.com/user-attachments/assets/a89f637b-d4ee-4023-8d80-168b616a034a)
+![image](https://github.com/user-attachments/assets/cb83a084-7dc5-45cd-b10a-3be815c7818d)
 
 Página Inicial (Mobile - Menu Fechado)
 
@@ -161,7 +161,7 @@ Página Inicial (Mobile - Menu Aberto)
 
 Página de Detalhes do Produto
 
-![image](https://github.com/user-attachments/assets/26972b43-7dbf-4668-a8f2-5805c2902a6e)
+![image](https://github.com/user-attachments/assets/43f57465-553c-4d60-a1b5-dc575202c612)
 
 Página do Carrinho Vazio
 
